@@ -440,6 +440,71 @@ border-radius: 2px;
 	fill: #ffffff;
 }
 
+/* --------------footer-form------------------- */
+.subscription-box {
+	display: flex;
+	align-items: center;
+	margin-left: 93px;
+}
+.footer-input-box {
+	display: flex;
+	flex-direction: column-reverse;
+	margin-bottom: 37px;
+}
+.footer-label{ 
+	margin-bottom: 20px;
+
+	font-weight: 700;
+		font-size: 14px;
+		line-height: 1.14;
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+	
+		color: #FFFFFF;
+}
+.footer-input {
+	width: 358px;
+	height: 50px;
+	margin-right: 12px;
+	padding: 15px 16px;
+	
+	font-size: 16px;
+		line-height: 1.25;
+		letter-spacing: 0.03em;
+		color: rgba(255, 255, 255, 0.6);
+
+	background-color: transparent;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+		border-radius: 4px;
+}
+
+.footer-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 30px;
+	width: 200px;
+		height: 50px;
+
+		background: #2196F3;
+			box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+			border-radius: 4px;
+
+			font-weight: 700;
+				font-size: 16px;
+				line-height: 1.88;
+				letter-spacing: 0.06em;
+				
+					color: #FFFFFF;
+					border: none;
+
+					cursor: pointer;
+}
+
+.icon-send{
+	margin-left: 10px;
+}
 /* --------------------------MODAL------------------------- */
 .backdrop{
 	position: fixed;
