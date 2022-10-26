@@ -120,7 +120,7 @@ border-radius: 2px;
 
 
 .header-link.cont {
-	color: #757575;
+	color: var(--contact-color);
 }
 .contacts-item {
 	margin-right: 10px;
@@ -221,7 +221,7 @@ border-radius: 2px;
 	line-height: 1.14;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: #212121;
+	color: var(--title-common-color);
 	margin-bottom: 10px;
 	margin-top: 30px;
 }
@@ -257,7 +257,7 @@ border-radius: 2px;
 	line-height: 1.14;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-    color: #ffffff;
+    color: var(--common-color);
 
 	width:100%;
 		height: 70px;
@@ -274,7 +274,7 @@ border-radius: 2px;
 }
 .team-item {
 	width: calc(100% / 4 - 30px);
-	background: #ffffff;
+	background: var(--common-color);
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
 }
@@ -304,7 +304,7 @@ border-radius: 2px;
 }
 .team-soc-link:hover .team-soc-icon,
 .team-soc-link:focus .team-soc-icon {
-	fill: #ffffff;
+	fill: var(--common-color);
 }
 
 .team-item-content {
@@ -383,7 +383,7 @@ border-radius: 2px;
 	line-height: 16px;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: #ffffff;
+	color: var(--common-color);
 }
 .footer-list {
 	color: inherit;
@@ -434,17 +434,17 @@ border-radius: 2px;
 }
 .team-soc-link {
 	background: rgba(255, 255, 255, 0.1);
-	color: #ffffff;
+	color: var(--common-color);
 }
 .footer .team-soc-icon {
-	fill: #ffffff;
+	fill: var(--common-color);
 }
 
 /* --------------footer-form------------------- */
 .subscription-box {
 	display: flex;
 	align-items: center;
-	margin-left: 93px;
+	margin-left: auto;
 }
 .footer-input-box {
 	display: flex;
@@ -460,7 +460,7 @@ border-radius: 2px;
 		letter-spacing: 0.03em;
 		text-transform: uppercase;
 	
-		color: #FFFFFF;
+		color: var(--common-color);
 }
 .footer-input {
 	width: 358px;
@@ -496,7 +496,7 @@ border-radius: 2px;
 				line-height: 1.88;
 				letter-spacing: 0.06em;
 				
-					color: #FFFFFF;
+					color: var(--common-color);
 					border: none;
 
 					cursor: pointer;
@@ -527,6 +527,11 @@ border-radius: 2px;
 	top: 50%;
 	transform: translate(-50%, -50%);
 	position: relative;
+	padding: 40px;
+
+	background: var(--common-color);
+		box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+		border-radius: 4px;
 }
 .btn-close{
 	position: absolute;
@@ -542,7 +547,7 @@ border-radius: 2px;
 	
 		border-radius: 50%;
 		border: 1px solid rgba(0, 0, 0, 0.1);
-		background-color: #FFFFFF;
+		background-color: var(--common-color);
 	
 		cursor: pointer;
 		transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -557,16 +562,11 @@ border-radius: 2px;
 	line-height: 1.15;
 	text-align: center;
 	letter-spacing: 0.03em;
-	padding-top: 40px;
 	margin-bottom: 12px;
 	
-	color: #212121;
+	color: var(--title-common-color);
 }
-.form-box{
-	margin-left: 40px;
-	margin-right: 40px;
-	
-}
+
 .modal-input{
 	width: 100%;
 	height: 40px;
@@ -598,9 +598,10 @@ border-radius: 2px;
 	font-size: 12px;
 		line-height: 1.17;
 		letter-spacing: 0.01em;
-	
-		color: #757575;
+		color: var(--contact-color);
+		margin-bottom: 4px;
 }
+
 .comment-box{
 	min-width: 448px;
 	min-height: 120px;
@@ -627,7 +628,7 @@ font-weight: 400;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	display: flex;
-	color: #757575;
+	color: var(--contact-color);
 	align-items: center;
 	margin-top: 20px;
 	margin-bottom: 30px; 
@@ -637,7 +638,7 @@ font-weight: 400;
 	content: '';
 	width: 16px;
 	height: 15px;
-	border: 2px solid #212121;
+	border: 2px solid var(--title-common-color);
     border-radius: 2px;
 	margin-right: 8.38px;
 }
@@ -664,6 +665,7 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 	border: none;
 	margin-left: auto;
 	margin-right: auto;
+	font-weight: bold;
 
 	font-size: 16px;
 	line-height: 1.88;
@@ -672,7 +674,7 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 	justify-content: center;
 	text-align: center;
 	letter-spacing: 0.06em;
-	color: #FFFFFF;
+	color: var(--common-color);
 
 	transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -792,7 +794,7 @@ img {
 	
 	letter-spacing: 0.03em;
 	
-	color: #FFFFFF;
+	color: var(--common-color);
 
 	transform: translateY(-100%);
 	transition: translate 250ms cubic-bezier(0.4, 0, 0.2, 1);
